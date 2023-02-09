@@ -1,0 +1,63 @@
+@media screen and (max-width: 730px) {
+    .cabecalho_header {
+       flex-direction: column;
+       align-items: center;
+       gap: 50px;
+    }
+
+    .container_banner {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 0 auto;
+    }
+    
+    .container_texto {
+        text-align: center;
+    }
+
+    .conteudo_box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 0 auto;
+    }
+
+    .conteudo-texto {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .forum {
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+
+    .rodape_area {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .rodape_area img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .modal_content {
+        width: 75%;
+    }
+
+    .conjunto_input {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    label {
+        padding: 10px;
+        font-family: var(--montserrat);
+    }
+
+}
