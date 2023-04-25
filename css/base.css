@@ -210,6 +210,8 @@ input {
 .container_banner {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container_texto {
